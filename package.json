@@ -1,0 +1,27 @@
+{
+  "name": "task_management",
+  "version": "1.0.0",
+  "description": "sample crud operations",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "mocha --timeout 10000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rnkpareek/task_management.git"
+  },
+  "author": "rnk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rnkpareek/task_management/issues"
+  },
+  "homepage": "https://github.com/rnkpareek/task_management#readme",
+  "dependencies": {
+    "chai": "^4.1.2",
+    "chai-http": "^3.0.0",
+    "express": "^4.16.2",
+    "mocha": "^4.0.1",
+    "mongoose": "^4.13.7"
+  }
+}
